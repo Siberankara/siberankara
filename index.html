@@ -3,97 +3,51 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#07111f">
-  <meta name="description" content="Siber güvenlik, dijital güvenlik ve teknoloji üzerine çalışmalar, içerikler ve projeler.">
-  <title>SiberAnkara | Siber Güvenlik ve Teknoloji</title>
+  <meta name="theme-color" content="#071018">
+  <meta name="description" content="SiberAnkara; Ankara, Türkiye ve dünyadan siber güvenlik haberleri, kritik zafiyetler, yapay zekâ, teknoloji, analiz ve etkinlikleri takip eden bağımsız dijital yayın.">
+  <title>SiberAnkara | Ankara'dan Dünyaya Siber Güvenliğin Nabzı</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="grid-overlay" aria-hidden="true"></div>
-  <header class="site-header">
-    <a class="brand" href="#anasayfa" aria-label="SiberAnkara ana sayfa">
-      <span class="brand-mark">S<span>/</span>A</span>
-      <span class="brand-name">SİBER<span>ANKARA</span></span>
-    </a>
-    <button class="menu-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false">☰</button>
-    <nav class="nav">
-      <a href="#hakkinda">Hakkında</a>
-      <a href="#alanlar">Odak Alanları</a>
-      <a href="#projeler">Projeler</a>
-      <a class="nav-cta" href="#iletisim">İletişim <span>↗</span></a>
-    </nav>
+  <header>
+    <div class="topbar wrap"><span id="today">30 Ekim 2026</span><div><a href="#hakkimizda">Hakkımızda</a><a href="mailto:merhaba@siberankara.com">İletişim</a><a href="#bulten">Bülten</a></div></div>
+    <div class="masthead">
+      <div class="ankara-skyline" aria-hidden="true"><span class="tower">◉</span><span class="monument">▥</span></div>
+      <div class="wrap mast-inner">
+        <a class="brand" href="#"><span class="goat" aria-hidden="true">♑</span><span><b>SİBER<span>ANKARA</span></b><small>ANKARA'DAN DÜNYAYA<br>SİBER GÜVENLİĞİN NABZI</small></span></a>
+        <div class="mast-note"><strong>Daha güvenli bir dijital gelecek için.</strong><span>ANKARA • TÜRKİYE • DÜNYA</span></div>
+      </div>
+    </div>
+    <nav class="mainnav"><div class="wrap nav-inner"><button class="menu-toggle" aria-label="Menüyü aç" aria-expanded="false">☰</button><div class="nav-links"><a class="home" href="#">⌂</a><a href="#sondakika">Son Dakika</a><a href="#ankara">Ankara</a><a href="#turkiye">Türkiye</a><a href="#dunya">Dünya</a><a href="#yapayzeka">Yapay Zekâ</a><a href="#teknoloji">Teknoloji</a><a href="#zafiyetler">Zafiyetler</a><a href="#analiz">Analiz</a><a href="#etkinlikler">Etkinlikler</a></div></div></nav>
   </header>
 
-  <main id="anasayfa">
-    <section class="hero section-wrap">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="pulse"></span> SİBER GÜVENLİK · TEKNOLOJİ · FARKINDALIK</div>
-        <h1>Dijital dünyada<br><span class="gradient-text">bir adım önde.</span></h1>
-        <p class="hero-text">Siber güvenlik, dijital farkındalık ve yeni teknolojiler üzerine fikirler, projeler ve uygulanabilir bilgiler.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#alanlar">Neler yapıyorum? <span>↘</span></a>
-          <a class="button button-quiet" href="#hakkinda">Hakkımda</a>
-        </div>
-        <div class="hero-footnote"><span class="tiny-line"></span> Güvenli dijital gelecek, bilinçli adımlarla başlar.</div>
+  <main>
+    <section id="sondakika" class="breaking"><div class="wrap breaking-inner"><strong>⚡ SON DAKİKA</strong><div class="ticker"><span>Microsoft güvenlik güncellemelerini yayımladı</span><i></i><span>Avrupa'da kritik bir enerji şirketi siber saldırıya uğradı</span><i></i><span>Ankara'da Siber Güvenlik Zirvesi için geri sayım başladı</span></div></div></section>
+
+    <section class="wrap lead-grid">
+      <article id="dunya" class="hero-story"><div class="story-art world-art"><span class="lock">▣</span></div><div class="hero-overlay"><span class="tag">DÜNYA</span><h1>Küresel Ölçekte Yeni Fidye Yazılım Grubu Ortaya Çıktı</h1><p>Yeni tehdit grubunun çok sayıda kurumu hedef aldığı ve özellikle kritik altyapılara odaklandığı bildiriliyor.</p><div class="meta">30 Ekim 2026 · 12,4 B görüntüleme <a href="#">Haberin Devamı →</a></div></div></article>
+      <div class="side-stories">
+        <article><div class="thumb anitkabir">▥</div><div><span class="tag">ANKARA</span><h3>Ankara'da Siber Güvenlik Zirvesi 2026 için Geri Sayım</h3><small>30 Ekim 2026</small></div></article>
+        <article id="turkiye"><div class="thumb shield">AI</div><div><span class="tag">TÜRKİYE</span><h3>Kamu Kurumları İçin Yeni Siber Güvenlik Genelgesi Yayımlandı</h3><small>29 Ekim 2026</small></div></article>
+        <article id="yapayzeka"><div class="thumb robot">◎</div><div><span class="tag">TEKNOLOJİ</span><h3>Yapay Zekâ Destekli Saldırılar 2026'da Hız Kazandı</h3><small>29 Ekim 2026</small></div></article>
       </div>
-      <div class="hero-visual" aria-label="Soyut siber güvenlik görseli">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
-        <div class="core">
-          <div class="core-shield">⌑</div>
-          <div class="core-label">CYBER<br><strong>READY</strong></div>
-        </div>
-        <span class="node node-a"></span><span class="node node-b"></span><span class="node node-c"></span>
-        <div class="float-card card-top"><span class="status-dot"></span> DIGITAL DEFENSE <b>ACTIVE</b></div>
-        <div class="float-card card-bottom"><span class="mini-bars"><i></i><i></i><i></i><i></i></span><span>THREAT AWARENESS<br><b>ALWAYS ON</b></span></div>
-        <div class="visual-caption">FIG. 01 — SECURITY MINDSET</div>
-      </div>
+      <aside class="most-read"><h2>▥ En Çok Okunanlar</h2><ol><li><b>1</b><span>ChatGPT temalı yeni oltalama kampanyası kurumları hedefliyor<small>42,1 B</small></span></li><li><b>2</b><span>Türkiye'de 2026'nın en kritik 10 siber güvenlik açığı<small>28,6 B</small></span></li><li><b>3</b><span>Ankara'daki siber güvenlik ekosistemi büyüyor<small>21,4 B</small></span></li><li><b>4</b><span>Microsoft kritik 0-day açığını yamaladı<small>18,7 B</small></span></li><li><b>5</b><span>Yapay zekâ ile sahte ses dolandırıcılığı artıyor<small>16,9 B</small></span></li></ol></aside>
     </section>
 
-    <section class="ticker" aria-label="Konular">
-      <div class="ticker-track"><span>SİBER GÜVENLİK</span><b>✳</b><span>YAPAY ZEKÂ</span><b>✳</b><span>DİJİTAL FARKINDALIK</span><b>✳</b><span>TEKNOLOJİ</span><b>✳</b><span>SİBER GÜVENLİK</span><b>✳</b><span>YAPAY ZEKÂ</span><b>✳</b><span>DİJİTAL FARKINDALIK</span><b>✳</b><span>TEKNOLOJİ</span><b>✳</b></div>
+    <section class="wrap category-strip">
+      <a href="#ankara"><b>ANKARA</b><span>Gelişmeler, etkinlikler ve ekosistem</span></a><a href="#turkiye"><b>TÜRKİYE</b><span>Türkiye'den siber güvenlik haberleri</span></a><a href="#dunya"><b>DÜNYA</b><span>Global saldırılar ve gelişmeler</span></a><a href="#yapayzeka"><b>YAPAY ZEKÂ</b><span>AI güvenliği ve yeni tehditler</span></a><a id="teknoloji" href="#"><b>TEKNOLOJİ</b><span>Yeni ürünler ve çözümler</span></a><a href="#zafiyetler"><b>ZAFİYETLER</b><span>CVE'ler ve kritik açıklar</span></a><a id="analiz" href="#"><b>ANALİZ</b><span>Uzman yorumları ve değerlendirmeler</span></a><a href="#etkinlikler"><b>ETKİNLİKLER</b><span>Zirveler, konferanslar ve eğitimler</span></a>
     </section>
 
-    <section id="hakkinda" class="content-section section-wrap">
-      <div class="section-label">01 / HAKKINDA</div>
-      <div class="about-grid">
-        <h2>Teknolojiyi anlamak,<br><span class="muted">riski azaltmak.</span></h2>
-        <div class="about-copy">
-          <p>SiberAnkara; siber güvenlik ve teknoloji dünyasını daha anlaşılır, erişilebilir ve uygulanabilir hâle getirmek için tasarlanan bir dijital platformdur.</p>
-          <p>Burada güvenlik farkındalığı, güncel tehditler, yapay zekâ ve dijital dünyada daha güvenli hareket etmeye yardımcı olacak içerikler bulacaksın.</p>
-          <div class="signature"><span class="signature-line"></span><span>SİBERANKARA / 2026</span></div>
-        </div>
-      </div>
+    <section class="wrap dashboard">
+      <section id="ankara" class="panel news-panel"><div class="panel-title"><h2>▥ Ankara'dan Haberler</h2><a href="#">Tümünü Gör →</a></div><div class="featured-local"><div class="local-art"><span class="tower-icon">◉</span></div><div><h3>Ankara'da Siber Güvenlik Girişimlerine Yeni Destek Programı</h3><p>Ankara'daki teknokentlerde faaliyet gösteren siber güvenlik girişimleri için yeni destek programı açıklandı.</p><small>30 Ekim 2026</small></div></div><div class="mini-list"><p><b>ODTÜ'de Siber Güvenlik Zirvesi Düzenlendi</b><small>29 Ekim 2026</small></p><p><b>Ankara Siber Güvenlik Kümelenmesi Büyümeye Devam Ediyor</b><small>28 Ekim 2026</small></p><p><b>Savunma Sanayisinde Yeni Siber Güvenlik İş Birliği</b><small>27 Ekim 2026</small></p></div></section>
+      <section id="zafiyetler" class="panel vuln-panel"><div class="panel-title"><h2>⬟ Kritik Zafiyetler</h2><a href="#">Tümünü Gör →</a></div><div class="vuln"><span class="critical">KRİTİK</span><div><b>CVE-2026-4427</b><p>VMware Aria Operations kritik güvenlik açığı</p><small>30 Ekim 2026</small></div></div><div class="vuln"><span class="high">YÜKSEK</span><div><b>CVE-2026-3912</b><p>Microsoft Exchange yetki yükseltme açığı</p><small>30 Ekim 2026</small></div></div><div class="vuln"><span class="high">YÜKSEK</span><div><b>CVE-2026-3881</b><p>Linux çekirdeğinde yerel yetki yükseltme açığı</p><small>29 Ekim 2026</small></div></div></section>
+      <section id="etkinlikler" class="panel events-panel"><div class="panel-title"><h2>▣ Yaklaşan Etkinlikler</h2><a href="#">Tümünü Gör →</a></div><div class="event"><time>12<small>Kas</small></time><p><b>Siber Güvenlik Zirvesi 2026</b><span>Ankara Konferans Merkezi</span></p></div><div class="event"><time>20<small>Kas</small></time><p><b>Cyber Security Meetup Ankara</b><span>ODTÜ Teknokent</span></p></div><div class="event"><time>05<small>Ara</small></time><p><b>Yapay Zekâ ve Güvenlik Paneli</b><span>Hacettepe Üniversitesi</span></p></div><div class="event"><time>15<small>Ara</small></time><p><b>Siber Dayanıklılık Çalıştayı</b><span>Bilkent CYBERPARK</span></p></div></section>
     </section>
 
-    <section id="alanlar" class="content-section section-wrap">
-      <div class="section-heading">
-        <div><div class="section-label">02 / ODAK ALANLARI</div><h2>Merakın olduğu yerde<br><span class="muted">gelişim başlar.</span></h2></div>
-        <p class="heading-note">Karmaşık konuları sadeleştiren, gerçek hayatta işe yarayan bilgiler.</p>
-      </div>
-      <div class="focus-grid">
-        <article class="focus-card"><div class="card-index">01</div><div class="line-icon">⌁</div><h3>Siber Güvenlik</h3><p>Dijital riskleri tanıma, korunma yöntemleri ve temel güvenlik alışkanlıkları.</p><a href="#iletisim" aria-label="Siber Güvenlik hakkında iletişim">↗</a></article>
-        <article class="focus-card featured"><div class="card-index">02</div><div class="line-icon">✳</div><h3>Yapay Zekâ</h3><p>Yeni nesil araçlar, yapay zekâ ile üretim ve güvenli kullanım pratikleri.</p><a href="#iletisim" aria-label="Yapay Zekâ hakkında iletişim">↗</a></article>
-        <article class="focus-card"><div class="card-index">03</div><div class="line-icon">◎</div><h3>Farkındalık</h3><p>Oltalama, sosyal mühendislik ve çevrim içi tehditlere karşı bilinçli yaklaşım.</p><a href="#iletisim" aria-label="Farkındalık hakkında iletişim">↗</a></article>
-      </div>
-    </section>
-
-    <section id="projeler" class="content-section section-wrap">
-      <div class="section-label">03 / PROJELER & İÇERİKLER</div>
-      <div class="project-panel">
-        <div><span class="project-tag">YAKINDA</span><h2>Bilgiyi paylaş.<br><span class="gradient-text">Güvenliği güçlendir.</span></h2><p>Rehberler, kısa eğitim içerikleri, proje notları ve teknoloji deneyimleri burada yayınlanacak.</p></div>
-        <div class="project-graphic"><div class="graphic-ring"></div><div class="graphic-cross">+</div><div class="graphic-code">&lt;SECURE /&gt;<br><span>BUILD · LEARN · SHARE</span></div></div>
-      </div>
-    </section>
-
-    <section id="iletisim" class="contact-section">
-      <div class="section-wrap contact-inner">
-        <div><div class="section-label">04 / İLETİŞİM</div><h2>Bir fikrin mi var?<br><span class="gradient-text">Konuşalım.</span></h2><p>İş birliği, içerik önerisi veya proje fikirleri için iletişime geçebilirsin.</p></div>
-        <a class="button button-primary contact-button" href="mailto:merhaba@siberankara.com">E-posta gönder <span>↗</span></a>
-      </div>
-    </section>
+    <section id="hakkimizda" class="mission"><div class="wrap mission-inner"><div class="goat big">♑</div><div><span>SİBERANKARA</span><h2>“Dijital dünyada da Ankara'nın gücü var.”</h2><p>Ankara'daki siber güvenlik ekosistemini görünür kılarken Türkiye ve dünyadaki önemli gelişmeleri anlaşılır, hızlı ve güvenilir biçimde aktarmayı hedefliyoruz.</p></div><div id="bulten" class="newsletter"><b>Haftalık SiberAnkara Bülteni</b><p>Önemli haberleri ve etkinlikleri kaçırma.</p><a href="mailto:merhaba@siberankara.com?subject=SiberAnkara%20Bülten%20Aboneliği">Bülten'e Abone Ol →</a></div></div></section>
   </main>
 
-  <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#anasayfa"><span class="brand-mark">S<span>/</span>A</span><span class="brand-name">SİBER<span>ANKARA</span></span></a><span>© <span id="year"></span> SiberAnkara. Tüm hakları saklıdır.</span><a href="#anasayfa" class="back-top">YUKARI ↑</a></footer>
+  <footer><div class="wrap footer-inner"><b>SİBER<span>ANKARA</span></b><p>© <span id="year"></span> SiberAnkara. Siber güvenlik, teknoloji ve Ankara'nın dijital gündemi.</p><a href="#">Yukarı ↑</a></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
